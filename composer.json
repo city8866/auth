@@ -1,0 +1,23 @@
+{
+    "name": "justary/tp5-authority",
+    "description": "这是为thinkphp 5开发的一个api 权限控制插件，且只能应用于tp5以上版本",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "city8866",
+            "email": "965177646@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.0",
+        "topthink/framework": "5.1.*",
+        "flc/alidayu":">=v2.0.5"
+    },
+    "autoload": {
+        "psr-4":{
+            "Auth\\" : "src/"
+        }
+    }
+}
